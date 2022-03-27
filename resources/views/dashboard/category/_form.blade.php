@@ -1,10 +1,10 @@
 @csrf
                 <label for="">Titulo</label>
-                <input type="text" name="title" value="{{ old("title", $category->title) }}">
+                <input type="text" class="form-control" name="title" value="{{ old("title", $category->title) }}">
                 <label for="">Slug</label>
-                <input type="text" name="slug" value="{{ old("slug", $category->slug) }}">
+                <input type="text" class="form-control" name="slug" value="{{ old("slug", $category->slug) }}">
                 <label for="">Descripcion</label>
-                <textarea name="description">
+                <textarea name="description" class="form-control">
                         {{ old("description", $category->description) }}
                 </textarea>
-                <button type="submit">Enviar</button>
+                <button class="btn btn-primary" type="submit">Enviar</button>

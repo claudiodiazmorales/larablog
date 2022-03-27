@@ -1,0 +1,74 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/******************** bases *********************/
+
+h1{
+        @apply text-4xl my-2
+}
+label{
+        @apply my-2 block
+}
+
+/******************** bases *********************/
+
+
+/******************** tabla basica *********************/
+
+.table{
+        @apply table-auto w-full mb-3
+}
+
+.table th{
+        @apply px-6 py-2 bg-gray-50 font-medium text-gray-500 uppercase border leading-4 tracking-widest
+}
+
+.table tr{
+        @apply border
+}
+
+.table td{
+        @apply px-6 py-4 whitespace-normal
+}
+/******************** tabla basica *********************/
+
+/******************** form *********************/
+
+.form-control{
+        @apply block rounded-sm shadow-sm bg-purple-50 w-full
+}
+
+/******************** form *********************/
+
+/******************** btn *********************/
+
+.btn{
+        @apply border rounded px-3 py-2 text-white font-bold inline-block my-3
+}
+.btn-danger{
+        @apply bg-red-600 hover:bg-red-900 border-red-600
+}
+.btn-success{
+        @apply bg-green-600 hover:bg-green-900 border-green-600
+}
+.btn-primary{
+        @apply bg-blue-600 hover:bg-blue-900 border-blue-600 
+}
+.btn-warning{
+        @apply bg-yellow-600 hover:bg-yellow-900 border-yellow-600 
+}
+
+/******************** btn *********************/
+
+/******************** card *********************/
+
+.card{
+        @apply p-6 mt-5 rounded shadow-sm
+}
+
+.card-white{
+        @apply bg-white
+}
+
+/******************** card *********************/
